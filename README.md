@@ -14,6 +14,14 @@ Take a look at the component `PayPalButton`, located in `/src/PayPalButton.tsx`.
 
     *Answer*: ...
 
-Note: The component uses [PayPal SDK](https://developer.paypal.com/docs/business/javascript-sdk/javascript-sdk-reference/). Keep in mind that due to the mock returning a fake value, `onAccept` will never be executed in this demo and the expected result is the SDK failing with `500` while trying to call `https://www.sandbox.paypal.com/smart/api/payment/fake_paypal_token/ectoken`
+### Additional notes
 
-The component also utilises [formik](https://formik.org/) as form/state management library.
+- The component uses [PayPal SDK](https://developer.paypal.com/docs/business/javascript-sdk/javascript-sdk-reference/). Keep in mind that due to the mock returning a fake value, `onAccept` will never be executed in this demo and the expected result is the SDK failing with `500` while trying to call `https://www.sandbox.paypal.com/smart/api/payment/fake_paypal_token/ectoken`
+- The component also utilises [formik](https://formik.org/) as form/state management library.
+
+## Submit your solution
+
+You can provide your solution either
+
+- as a zipped file containing the code or
+- as a link to a fork of this repository.
